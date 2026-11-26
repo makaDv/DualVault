@@ -46,7 +46,7 @@ Security = "https://github.com/makaDv/DualVault/security/policy"
 packages = ["src/dualvault"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "examples", "README.md", "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
+include = ["src", "tests", "examples", "docs", "README.md", "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

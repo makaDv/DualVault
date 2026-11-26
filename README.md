@@ -15,6 +15,8 @@
 - ⏰ **Scheduling**: one command registers a daily task (Windows Task Scheduler, systemd, launchd)
 - 🖥️ CLI **and** a simple GUI · Windows, Linux, macOS · Python ≥ 3.10
 
+📖 **Step-by-step user guide:** [English](docs/USER_GUIDE.md) · [Italiano](docs/GUIDA.md)
+
 > **Disclaimer.** DualVault is provided "as is", without warranty of any kind (see [LICENSE](LICENSE), sections 7–8). Always keep more than one copy of important data and **test your restores regularly**.
 
 ## Installation
