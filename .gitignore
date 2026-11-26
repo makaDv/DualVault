@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Personal data — never commit
+*.toml
+!pyproject.toml
+!examples/*.toml
+*.log
+*.log.*
+logs/
+.env
+.env.*
+rclone.conf
+*password*
+*.pw
+*.key
+*.pem
+
+# Backups / snapshots
+*.zip
+*.dvenc
+*.partial
+dualvault.lock
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tooling
+.claude/
+graphify-out/
